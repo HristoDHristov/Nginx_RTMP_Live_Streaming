@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JW6 Plugin Tests</title>
+   <script src="jwplayer.js"></script>
+</head>
+<body>
+
+<div id="myElement"></div>
+
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        file: 'rtmp://localhost:1935/live/<obs_id>',
+        width: 500,
+        height: 500
+    });
+</script>
+
+
+
+
+</body>
+</html>
