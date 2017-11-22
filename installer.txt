@@ -10,3 +10,10 @@ cd nginx-1.8.1
 make
 sudo make install
 sudo /usr/local/nginx/sbin/nginx
+sudo apt-get install php php-fpm  mysql-server php-mysql
+
+#sudo nano /etc/php/[v]/fpm/pool.d/www.conf
+#;listen = /var/run/php[v]-fpm.sock
+#listen = 127.0.0.1:9000
+#sudo /usr/local/nginx/sbin/nginx -s reload
+#sudo service php[v]-fpm restart
